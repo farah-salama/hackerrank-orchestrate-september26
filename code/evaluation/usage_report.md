@@ -1,24 +1,24 @@
 # Token usage report
 
-Run type: sample
-Requests processed: 25
+Run type: full dataset
+Requests processed: 250
 Provider: Google
 
 ## Models
 
 | Model | Calls | Input tokens | Output tokens | Estimated cost (USD) |
 |---|---:|---:|---:|---:|
-| gemini-3.5-flash-lite | 30 | 51958 | 5144 | 0.010880 |
+| gemini-3.1-flash-lite | 261 | 480315 | 49325 | 0.101642 |
 
 ## Totals
 
-- Model calls: 30
-- Input tokens: 51958
-- Output tokens: 5144
-- Total tokens: 57102
-- Average tokens per request: 2284.08
-- Estimated total cost (USD): 0.010880
-- Estimated cost per request (USD): 0.000435
+- Model calls: 261
+- Input tokens: 480315
+- Output tokens: 49325
+- Total tokens: 529640
+- Average tokens per request: 2118.56
+- Estimated total cost (USD): 0.101642
+- Estimated cost per request (USD): 0.000407
 
 ## Pricing assumptions
 
